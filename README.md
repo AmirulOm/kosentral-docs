@@ -17,8 +17,6 @@ kosentral-docs-site/
 │   ├── reports/               # Reporting and analytics
 │   ├── settings/              # Organization and user settings
 │   ├── features/              # System features (search, support)
-│   ├── api/                   # API documentation
-│   ├── dev/                   # Developer guides
 │   └── includes/              # Shared content snippets
 └── site/                      # Generated static site (auto-created)
 ```
@@ -45,11 +43,6 @@ kosentral-docs-site/
 3. **Install dependencies:**
    ```bash
    pip install mkdocs mkdocs-material
-   ```
-
-4. **Navigate to docs site:**
-   ```bash
-   cd kosentral-docs-site
    ```
 
 ### Local Development
@@ -101,41 +94,6 @@ mkdocs build
 - Financial operations (invoices, transactions)
 - Reporting and analytics
 - Organization settings
-
-#### Technical Documentation
-- API reference with examples
-- Architecture overview
-- Database schema documentation
-- Deployment guides
-
-## 🎨 Theme Configuration
-
-### Material Theme Features
-
-- **Color Scheme**: Blue primary with automatic dark/light mode
-- **Typography**: Optimized for readability
-- **Icons**: Material Design and FontAwesome icons
-- **Navigation**: Sticky header with tabs
-- **Search**: Advanced search with suggestions
-- **Social Links**: GitHub, Twitter, website links
-
-### Custom Styling
-
-The documentation uses MkDocs Material theme with custom configurations:
-
-- **Palette**: Automatic dark/light mode switching
-- **Navigation**: Tabs, sections, and instant loading
-- **Search**: Enhanced search with highlighting
-- **Content**: Code copy buttons, annotation support
-
-## 📝 Content Guidelines
-
-### Writing Style
-
-- **Clear and Concise**: Use simple, direct language
-- **User-Focused**: Write from the user's perspective
-- **Action-Oriented**: Use action verbs and step-by-step instructions
-- **Consistent Terminology**: Use the same terms throughout
 
 ### Markdown Best Practices
 
@@ -306,7 +264,5 @@ Monitor search queries to identify:
 - **GitHub Issues**: Use repository issue tracker
 
 ---
-
-**Built with ❤️ using MkDocs Material**
 
 This documentation site represents a comprehensive resource for Kosentral users, developers, and administrators. It's designed to grow with the product and community needs.
