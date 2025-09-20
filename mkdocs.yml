@@ -1,10 +1,10 @@
 site_name: Kosentral Documentation
-site_url: https://amirulom.github.io/kosentral-docs/
+site_url: https://docs.kosentral.com
 site_description: Comprehensive documentation for the Kosentral digital command center
 site_author: Kosentral Team
 
 repo_url: https://github.com/AmirulOm/kosentral-docs/
-repo_name: kosentral/kosentral
+repo_name: kosentral-docs
 
 theme:
   name: shadcn
