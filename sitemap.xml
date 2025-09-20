@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/</loc>
+         <loc>https://docs.kosentral.com/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/account-setup/login/</loc>
+         <loc>https://docs.kosentral.com/account-setup/login/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/account-setup/password-reset/</loc>
+         <loc>https://docs.kosentral.com/account-setup/password-reset/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/account-setup/registration/</loc>
+         <loc>https://docs.kosentral.com/account-setup/registration/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/features/global-search/</loc>
+         <loc>https://docs.kosentral.com/features/global-search/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/features/help-support/</loc>
+         <loc>https://docs.kosentral.com/features/help-support/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/getting-started/introduction/</loc>
+         <loc>https://docs.kosentral.com/getting-started/introduction/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/getting-started/quick-start/</loc>
+         <loc>https://docs.kosentral.com/getting-started/quick-start/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/getting-started/system-requirements/</loc>
+         <loc>https://docs.kosentral.com/getting-started/system-requirements/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/includes/mkdocs/</loc>
+         <loc>https://docs.kosentral.com/includes/mkdocs/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/invoices/creating-invoices/</loc>
+         <loc>https://docs.kosentral.com/invoices/creating-invoices/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/members/creating-members/</loc>
+         <loc>https://docs.kosentral.com/members/creating-members/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
     <url>
-         <loc>https://amirulom.github.io/kosentral-docs/transactions/membership-fees/</loc>
+         <loc>https://docs.kosentral.com/transactions/membership-fees/</loc>
          <lastmod>2025-09-20</lastmod>
     </url>
 </urlset>
