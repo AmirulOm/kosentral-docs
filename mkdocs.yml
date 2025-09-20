@@ -54,7 +54,14 @@ markdown_extensions:
   - pymdownx.blocks.tab
   - pymdownx.tabbed
   - admonition
-  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
 
 nav:
   - Home: index.md
@@ -93,14 +100,7 @@ nav:
   - System Features:
     - Global Search: features/global-search.md
     - Help & Support: features/help-support.md
-  - API Reference:
-    - Overview: api/overview.md
-    - Authentication: api/authentication.md
-    - Endpoints: api/endpoints.md
-  - Developer Guide:
-    - Architecture: dev/architecture.md
-    - Database Schema: dev/database-schema.md
-    - Deployment: dev/deployment.md
+
 
 extra:
   analytics:
