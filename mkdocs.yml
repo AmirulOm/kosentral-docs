@@ -1,0 +1,115 @@
+site_name: Kosentral Documentation
+site_url: https://docs.kosentral.com
+site_description: Comprehensive documentation for the Kosentral digital command center
+site_author: Kosentral Team
+
+repo_url: https://github.com/kosentral/kosentral
+repo_name: kosentral/kosentral
+
+theme:
+  name: shadcn
+  show_title: true # show the title in the top bar
+  show_stargazers: true # show the stargazers in the top bar
+  pygments_style: # default styles 
+        light: shadcn-light
+        dark: github-dark
+  icon: https://kosentral.com/favicon.ico # use the shadcn svg if not defined
+  topbar_sections: false # NEW!
+  katex_options: # optional
+    macros: # example of macros
+      "\\RR": "\\mathbb{R}" 
+      "\\dx": "\\mathrm{d}x"
+  show_datetime: false 
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+markdown_extensions:
+  - pymdownx.blocks.tab
+  - pymdownx.tabbed
+  - admonition
+  - pymdownx.smartsymbols
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Introduction: getting-started/introduction.md
+    - Quick Start: getting-started/quick-start.md
+    - System Requirements: getting-started/system-requirements.md
+  - Account & Organization Setup:
+    - Registration: account-setup/registration.md
+    - Login: account-setup/login.md
+    - Password Reset: account-setup/password-reset.md
+    - Invitations: account-setup/invitations.md
+  - Member Management:
+    - Creating Members: members/creating-members.md
+    - Viewing & Editing: members/viewing-editing.md
+    - Approval Process: members/approval-process.md
+    - Search & Filter: members/search-filter.md
+    - Import & Export: members/import-export.md
+    - Statistics: members/statistics.md
+    - Member Deletion: members/deletion.md
+  - Invoice Management:
+    - Creating Invoices: invoices/creating-invoices.md
+    - Invoice Details: invoices/invoice-details.md
+    - Recent Invoices: invoices/recent-invoices.md
+  - Transaction Management:
+    - Membership Fees: transactions/membership-fees.md
+    - Share Transactions: transactions/share-transactions.md
+    - Transaction Details: transactions/transaction-details.md
+  - Reporting:
+    - Membership Reports: reports/membership-reports.md
+    - Customer Information Forms: reports/customer-forms.md
+    - Account Statements: reports/account-statements.md
+  - Settings:
+    - Organization Settings: settings/organization-settings.md
+    - User Management: settings/user-management.md
+  - System Features:
+    - Global Search: features/global-search.md
+    - Help & Support: features/help-support.md
+  - API Reference:
+    - Overview: api/overview.md
+    - Authentication: api/authentication.md
+    - Endpoints: api/endpoints.md
+  - Developer Guide:
+    - Architecture: dev/architecture.md
+    - Database Schema: dev/database-schema.md
+    - Deployment: dev/deployment.md
+
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kosentral/kosentral
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/kosentral
+    - icon: fontawesome/solid/globe
+      link: https://kosentral.com
