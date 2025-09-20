@@ -14,6 +14,7 @@ theme:
         light: shadcn-light
         dark: github-dark
   icon: https://kosentral.com/favicon.ico # use the shadcn svg if not defined
+  favicon: https://kosentral.com/favicon.ico
   topbar_sections: false # NEW!
   katex_options: # optional
     macros: # example of macros

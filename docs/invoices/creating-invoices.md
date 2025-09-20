@@ -42,6 +42,7 @@ Kosentral supports multiple invoice types for different organizational needs:
 
 #### Item Details
 For each invoice item, specify:
+
 - **Item Name**: Description of goods/services
 - **Amount**: Price per unit
 - **Quantity**: Number of units (default: 1)
@@ -101,7 +102,7 @@ For each invoice item, specify:
     **Use Case**: Refunds or billing corrections
     
     **Features**:
-    
+
     - Reduces member account balance
     - Links to original invoice
     - Automatic adjustment calculations

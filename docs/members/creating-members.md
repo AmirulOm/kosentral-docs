@@ -60,6 +60,7 @@ The first tab collects essential personal details required for member identifica
 - **Processing**: Images are automatically resized and optimized
 
 **Upload Process**
+
 1. Click the image upload area or drag an image file
 2. Select image from your device
 3. Preview appears immediately after selection
@@ -87,6 +88,7 @@ Collect comprehensive address information for member correspondence and official
 ### Residential Address
 
 **Required Fields**
+
 - **Address Line 1**: Primary street address
 - **City**: City or town name
 - **Postal Code**: Valid Malaysian postal code
@@ -94,6 +96,7 @@ Collect comprehensive address information for member correspondence and official
 - **Country**: Defaults to Malaysia
 
 **Optional Fields**
+
 - **Address Line 2**: Additional address details (unit, floor, etc.)
 
 ### Correspondence Address
