@@ -66,6 +66,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Cooperative: cooperative.md
   - Getting Started:
     - Introduction: getting-started/introduction.md
     - Quick Start: getting-started/quick-start.md

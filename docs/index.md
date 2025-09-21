@@ -4,6 +4,7 @@
 
 Welcome to **Kosentral**, your comprehensive digital command center for managing organizations, members, finances, and operations with ease and efficiency.
 
+![membership-screenshot](/images/member-index.png)
 ## What is Kosentral?
 
 Kosentral is a powerful web-based platform designed to streamline organizational management. Whether you're running a cooperative, association, club, or any member-based organization, Kosentral provides all the tools you need to:
@@ -17,6 +18,7 @@ Kosentral is a powerful web-based platform designed to streamline organizational
 ## Key Features at a Glance
 
 === "Member Management"
+    ![member-details-screenshot](/images/member-details.png)
 
     * Comprehensive member profiles with personal, employment, and banking details
     * Multi-step member registration with approval workflows
@@ -26,6 +28,7 @@ Kosentral is a powerful web-based platform designed to streamline organizational
 
 
 === "Financial Management"
+    ![invoice-screenshot](/images/invoice-create.png)
 
     * Multi-type invoice generation (Standard, Proforma, Credit/Debit Notes)
     * Automated membership fee invoicing
@@ -34,6 +37,7 @@ Kosentral is a powerful web-based platform designed to streamline organizational
     * Financial reporting and statements
 
 ===  "Organization Tools"
+    ![organization-settings-screenshot](/images/setting.png)
 
     * Multi-tenant architecture with schema isolation
     * Role-based access control (Admin, Manager, Officer, Member)
@@ -42,13 +46,13 @@ Kosentral is a powerful web-based platform designed to streamline organizational
     * Subscription tier management
 
 ===  "Reporting & Analytics"
+    ![report-screenshot](/images/report-member.png)
 
     * Membership reports with detailed breakdowns
     * Customer Information Forms (CIFs) generation
     * Account statements with date range selection
     * Statistical dashboards
     * PDF export capabilities
-
 
 ## Quick Start
 
@@ -59,15 +63,6 @@ Ready to get started with Kosentral? Follow these simple steps:
 3. **[Create Invoices](invoices/creating-invoices.md)** - Begin managing your finances
 4. **[Process Transactions](transactions/membership-fees.md)** - Handle payments and fees
 
-## System Architecture
-
-Kosentral is built with modern technologies for scalability and reliability:
-
-- **Backend**: ASP.NET Core 8.0 with C#
-- **Database**: PostgreSQL with multi-tenant schema architecture
-- **Frontend**: Razor Pages with Bootstrap 5
-- **Authentication**: ASP.NET Core Identity
-- **Payment**: Billplz integration for Malaysian organizations
 
 ## Support Tiers
 
@@ -79,6 +74,8 @@ Kosentral offers flexible subscription tiers to match your organization's needs:
 | **Starter** | 50 | 5 | 10GB | Email |
 | **Standard** | 200 | 25 | 100GB | Priority |
 | **Enterprise** | Unlimited | Unlimited | 1TB | Dedicated |
+
+For Non-Profit Organizations, we offer free access. Contact us for eligibility and setup.
 
 ## Getting Help
 

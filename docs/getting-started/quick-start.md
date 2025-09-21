@@ -6,12 +6,14 @@ Get your organization up and running with Kosentral in just 15 minutes! This gui
 
 Ensure you have:
 
-- [x] Completed organization registration
+- [x] Completed organization registration, refer to [Registration Guide](../account-setup/registration.md)
 - [x] Verified your email address  
-- [x] Logged into your Kosentral dashboard
+- [x] Logged into your Kosentral dashboard, refer to [Login Guide](../account-setup/login.md)
 - [x] Admin or Manager role permissions
 
 ## Step 1: Configure Organization Settings (3 minutes)
+
+![organization-settings-screenshot](/images/org-setting.png )
 
 ### Update Organization Information
 
@@ -42,6 +44,8 @@ Ensure you have:
     - Grace period: 7-14 days
 
 ## Step 2: Create Your First Members (5 minutes)
+
+![member-list-screenshot](/images/create-member.png)
 
 ### Add Individual Members
 
@@ -91,19 +95,9 @@ For multiple members:
     - **Jane Smith** - 234567-89-0123 - jane@email.com
     - **Ahmad Rahman** - 345678-90-1234 - ahmad@email.com
 
-## Step 3: Approve Pending Members (2 minutes)
+## Step 3: Create Your First Invoice (3 minutes)
 
-If you enabled member approval:
-
-1. Go to **Members** index page
-2. Look for members with "Pending" status
-3. Click on member name or **View Details**
-4. Click **Approve** button to activate
-5. Confirm approval in modal dialog
-
-Members are now active and can receive invoices and make transactions.
-
-## Step 4: Create Your First Invoice (3 minutes)
+![invoice-create-screenshot](/images/invoice-create-empty.png)
 
 ### Generate Membership Fee Invoice
 
@@ -129,7 +123,9 @@ Members are now active and can receive invoices and make transactions.
     
     Your first invoice is now ready. Members can view this through their portal or you can send it via email.
 
-## Step 5: Process Your First Transaction (2 minutes)
+## Step 4: Process Your First Transaction (2 minutes)
+
+![transaction-screenshot](/images/transaction-membership.png)
 
 ### Record a Payment
 
@@ -137,26 +133,27 @@ Members are now active and can receive invoices and make transactions.
 2. Select the member who's paying
 3. The pending invoice will appear - click **Add** to include it
 4. Review transaction details:
-   - Payment date (defaults to today)
-   - Amount (auto-filled from invoice)
-   - Description (auto-generated)
+    - Payment date (defaults to today)
+    - Amount (auto-filled from invoice)
+    - Description (auto-generated)
 5. Click **Create Transaction**
 
 ### Generate Receipt
 
 After transaction creation:
+
 - Receipt is automatically generated
 - Email sent to member (if email provided)
 - Invoice status changes to "Paid"
 - Member's account is updated
 
-!!! tip "Payment Methods"
+<!-- !!! tip "Payment Methods"
     
     For Malaysian organizations, integrate Billplz for online payments:
     
     1. Go to **Settings** → **Payment Gateway**
     2. Add Billplz API credentials
-    3. Enable online payment links in invoices
+    3. Enable online payment links in invoices -->
 
 ## Quick Verification Checklist
 
@@ -190,7 +187,7 @@ Now that you have the basics set up, explore these features:
 - **[Global Search](../features/global-search.md)**: Quick navigation
 - **[Help & Support](../features/help-support.md)**: Get assistance
 
-## Common Quick Start Issues
+<!-- ## Common Quick Start Issues
 
 ### Members Not Appearing
 - Check if approval is required in settings
@@ -210,7 +207,7 @@ Now that you have the basics set up, explore these features:
 ### Email Notifications Not Sent
 - Check organization email settings
 - Verify member email addresses are valid
-- Confirm SMTP configuration in settings
+- Confirm SMTP configuration in settings -->
 
 ## Getting Help
 

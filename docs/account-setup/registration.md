@@ -19,6 +19,8 @@ Before starting the registration process, ensure you have:
 
 ### 1. Accessing the Registration Page
 
+![registration-screenshot](/images/registration.png)
+
 1. Navigate to the Kosentral registration page at `/Account/Register`
 2. You'll see a clean, professional registration form with two main sections:
    - **User Account Information**
@@ -54,6 +56,8 @@ Fill in your personal details as the primary administrator:
 
 #### 3a. Required Information
 
+![organization-details-screenshot](/images/organization-register.png)
+
 **Organization Name**
 
 - Full legal name of your organization
@@ -63,8 +67,7 @@ Fill in your personal details as the primary administrator:
 **Short Name** 
 
 - Maximum 32 characters 
-- Used for database schema naming (e.g., `org_shortname`)   
-- Must be unique across the entire platform. 
+- Unique identifier or abbreviation for your organization
 - Cannot be changed after registration.   
 - Use only letters, numbers, and underscores.   
 
@@ -74,7 +77,6 @@ Fill in your personal details as the primary administrator:
     
     - Descriptive of your organization
     - Easy to remember
-    - Professional (avoid special characters)
 
 **Registration Number**
 
@@ -132,12 +134,7 @@ Before submitting your registration, you must:
     - Click the confirmation link to activate your account
     - Email may take 5-10 minutes to arrive
 
-2. **Schema Creation**
-    - Unique database schema created for your organization
-    - Example: `org_yourshortname`
-    - Complete data isolation from other organizations
-
-3. **Initial Setup**
+2. **Initial Setup**
     - Default invoice types created
     - Transaction types initialized
     - Basic organization settings configured
@@ -153,32 +150,23 @@ Once email verification is complete:
 
 ## Common Registration Issues
 
-### Email Not Received
+??? question "Email Not Received"
+    If you don't receive the verification email: 
 
-If you don't receive the verification email:
+    - Check your spam/junk folder
+    - Verify the email address was entered correctly
+    - Wait 10-15 minutes for delivery
+    - Contact support if issues persist
 
-- Check your spam/junk folder
-- Verify the email address was entered correctly
-- Wait 10-15 minutes for delivery
-- Contact support if issues persist
 
-### Short Name Already Taken
+??? question "Validation Errors"
 
-If your desired short name is unavailable:
-
-- Try variations with numbers or abbreviations
-- Use your organization's acronym
-- Add location or type identifiers
-- Contact support for assistance
-
-### Validation Errors
-
-Common validation issues:
-
-- **Password Strength**: Ensure password meets all requirements
-- **Email Format**: Use a valid email format (user@domain.com)
-- **Required Fields**: All mandatory fields must be completed
-- **Registration Number**: Use only alphanumeric characters
+    Common validation issues:
+    
+    - **Password Strength**: Ensure password meets all requirements
+    - **Email Format**: Use a valid email format (user@domain.com)
+    - **Required Fields**: All mandatory fields must be completed
+    - **Registration Number**: Use only alphanumeric characters
 
 ## Post-Registration Setup
 
@@ -194,7 +182,6 @@ After successful registration, consider these next steps:
 ### Account Security
 
 - Use a strong, unique password
-- Enable two-factor authentication when available
 - Keep login credentials confidential
 - Log out of shared devices
 

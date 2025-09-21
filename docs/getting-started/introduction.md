@@ -6,7 +6,7 @@ Kosentral is a comprehensive digital command center designed to streamline organ
 
 ### Multi-Tenant Architecture
 
-Kosentral employs a sophisticated multi-tenant architecture where each organization operates in its own isolated schema within a PostgreSQL database. This ensures:
+Kosentral employs a sophisticated multi-tenant architecture where each organization operates in its own isolated schema within a database. This ensures:
 
 - **Data Isolation**: Complete separation of organizational data
 - **Schema Security**: Each organization's data is protected at the database level
@@ -89,32 +89,6 @@ Generate professional reports and gain insights:
 - **Customer Information Forms (CIFs)**: Regulatory compliance documents
 - **Statistical Dashboards**: Member demographics and financial summaries
 - **Audit Trails**: Complete transaction and activity logging
-
-## Technology Stack
-
-### Backend Architecture
-
-- **Framework**: ASP.NET Core 8.0
-- **Language**: C# with modern language features
-- **Database**: PostgreSQL with schema-based multi-tenancy
-- **ORM**: Entity Framework Core with advanced configurations
-- **Authentication**: ASP.NET Core Identity with custom user management
-
-### Frontend Technologies
-
-- **UI Framework**: Razor Pages with server-side rendering
-- **CSS Framework**: Bootstrap 5 with custom theming
-- **JavaScript**: Modern ES6+ with minimal dependencies
-- **Icons**: Bootstrap Icons and Font Awesome
-- **Charts**: Chart.js for data visualization
-
-### Infrastructure and Services
-
-- **Email Service**: SMTP-based email delivery
-- **File Storage**: Local file system with configurable storage paths
-- **PDF Generation**: HTML-to-PDF conversion for reports
-- **Payment Gateway**: Billplz integration for Malaysian market
-- **Logging**: Structured logging with customizable levels
 
 ## Data Security and Privacy
 
