@@ -2,54 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.kosentral.com/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kosentral.com/cooperative/</loc>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/account-setup/login/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/account-setup/password-reset/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/account-setup/registration/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/features/global-search/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/features/help-support/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/getting-started/introduction/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/getting-started/quick-start/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/getting-started/system-requirements/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/includes/mkdocs/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/invoices/creating-invoices/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/members/creating-members/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kosentral.com/transactions/membership-fees/</loc>
-         <lastmod>2025-09-20</lastmod>
+         <lastmod>2025-09-21</lastmod>
     </url>
 </urlset>
